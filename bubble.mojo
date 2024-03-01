@@ -10,4 +10,3 @@ fn bubble_sort[D: DType](inout vector: DynamicVector[SIMD[D, 1]]):
                 vector[i - 1] = vector[i]
                 vector[i] = temp
                 swapped = Bool(__mlir_attr.`true`)
-
